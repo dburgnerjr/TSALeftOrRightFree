@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.danielburgnerjr.tsaleftorrightfree.AboutActivity">
+
+    <LinearLayout
+        android:id="@+id/AboutTSALeftOrRight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textWhatIsTSALeftOrRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="24dp"
+            android:text="@string/what_is_it" />
+
+        <TextView
+            android:id="@+id/textTSALeftOrRight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:textSize="18dp"
+            android:text="@string/description" />
+
+        <Button
+            android:id="@+id/btnStory"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="18dp"
+            android:background="#000"
+            android:text="@string/story"
+            android:textSize="20dp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textReaction"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="18dp"
+            android:text="@string/reaction" />
+
+        <Button
+            android:id="@+id/btnReaction"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="18dp"
+            android:background="#000"
+            android:text="@string/video"
+            android:textSize="20dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</RelativeLayout>
