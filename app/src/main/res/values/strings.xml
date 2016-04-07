@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">TSALeftOrRightFree</string>
     <string name="action_settings">Settings</string>
+    <string name="tsaLeftOrRight">TSA Left or Right Free Version</string>
+    <string name="about">About</string>
+    <string name="start">Start</string>
+    <string name="share">Share</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
 </resources>
