@@ -60,13 +60,13 @@ public class MenuActivity extends AppCompatActivity {
                 String strPackPremiumName = "com.danielburgnerjr.tsaleftorrightpremium";
                 Uri uri = Uri.parse("market://details?id=" + strPackPremiumName);
                 Toast.makeText(getApplicationContext(), "Coming soon", Toast.LENGTH_SHORT).show();
-/*              Intent newActivity = new Intent(Intent.ACTION_VIEW, uri);
+                Intent newActivity = new Intent(Intent.ACTION_VIEW, uri);
                 try {
                     startActivity(newActivity);
                 } catch (ActivityNotFoundException e) {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + strPackPremiumName)));
                 }
- */         }
+          }
         });
 
     }

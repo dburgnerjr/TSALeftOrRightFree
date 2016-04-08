@@ -33,7 +33,7 @@
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:layout_marginTop="18dp"
-            android:background="#000"
+            android:background="#2f97ad"
             android:text="@string/story"
             android:textSize="20dp"
             android:textColor="#fff" />
@@ -51,7 +51,7 @@
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:layout_marginTop="18dp"
-            android:background="#000"
+            android:background="#2f97ad"
             android:text="@string/video"
             android:textSize="20dp"
             android:textColor="#fff" />
