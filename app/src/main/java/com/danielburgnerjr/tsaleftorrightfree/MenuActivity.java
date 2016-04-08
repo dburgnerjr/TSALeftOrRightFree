@@ -36,9 +36,8 @@ public class MenuActivity extends AppCompatActivity {
         final Button btnStart = (Button) findViewById(R.id.btnStart);
         btnStart.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Coming soon", Toast.LENGTH_SHORT).show();
-                //Intent intA = new Intent(MenuActivity.this, RandomActivity.class);
-                //startActivity(intA);
+                Intent intA = new Intent(MenuActivity.this, RandomActivity.class);
+                startActivity(intA);
             }
         });
 
