@@ -38,24 +38,6 @@
             android:textSize="20dp"
             android:textColor="#fff" />
 
-        <TextView
-            android:id="@+id/textReaction"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:textSize="18dp"
-            android:text="@string/reaction" />
-
-        <Button
-            android:id="@+id/btnReaction"
-            android:layout_width="200dp"
-            android:layout_height="75dp"
-            android:layout_marginTop="18dp"
-            android:background="#2f97ad"
-            android:text="@string/video"
-            android:textSize="20dp"
-            android:textColor="#fff" />
-
     </LinearLayout>
 
 </RelativeLayout>

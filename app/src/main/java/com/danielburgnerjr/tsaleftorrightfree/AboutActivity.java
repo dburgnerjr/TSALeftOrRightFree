@@ -21,13 +21,5 @@ public class AboutActivity extends AppCompatActivity {
                 startActivity(intStory);
             }
         });
-
-        final Button btnReaction = (Button) findViewById(R.id.btnReaction);
-        btnReaction.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent intStory = new Intent("android.intent.action.VIEW", Uri.parse("https://www.youtube.com/watch?v=6GqmjOcmJLQ"));
-                startActivity(intStory);
-            }
-        });
     }
 }
