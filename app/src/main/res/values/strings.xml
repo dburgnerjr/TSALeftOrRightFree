@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">TSALeftOrRightFree</string>
+    <string name="app_name">TSA Left Or Right</string>
     <string name="action_settings">Settings</string>
-    <string name="tsaLeftOrRight">TSA Left or Right Free Version</string>
+    <string name="tsaLeftOrRight">TSA Left Or Right Free Version</string>
     <string name="about">About</string>
     <string name="start">Start</string>
     <string name="share">Share</string>
