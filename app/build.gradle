@@ -8,13 +8,18 @@ android {
         applicationId "com.danielburgnerjr.tsaleftorrightfree"
         minSdkVersion 9
         targetSdkVersion 23
-        versionCode 4
-        versionName "1.03"
+        versionCode 5
+        versionName "1.04"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res', 'src/main/res/values-en-gb', 'src/main/res/layout-sw600dp', 'src/main/res/layout-sw720dp']
         }
     }
 }
