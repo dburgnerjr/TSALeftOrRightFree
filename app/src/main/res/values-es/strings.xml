@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TSA Aleatorizador Libre</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="tsaLeftOrRight">TSA Aleatorizador Libre Versión</string>
+    <string name="about">Acerca De</string>
+    <string name="start">Comienzo</string>
+    <string name="share">Compartir</string>
+    <string name="upgrade">Mejorar</string>
+    <string name="click_here">Haga Clic Aquí</string>
+    <string name="what_is_it">Acerca De TSA Aleatorizador</string>
+    <string name="description">Esta es mi versión de una aplicación de TSA Aleatorizador que cuesta a los contribuyentes US $ 1,4 millones de dólares para hacer.
+    Ha sido objeto de una serie de historias de noticias como la de abajo.</string>
+    <string name="story">Haga Clic Aquí Para La Historia</string>
+    <string name="first_line">Deja que te recomiendo esta aplicación</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=es</string>
+    <string name="choose_one">Elige Uno</string>
+    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=es</string>
+    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=es</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
+</resources>

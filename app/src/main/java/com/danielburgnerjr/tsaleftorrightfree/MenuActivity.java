@@ -46,25 +46,24 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intI = new Intent(Intent.ACTION_SEND);
                 intI.setType("text/plain");
-                intI.putExtra(Intent.EXTRA_SUBJECT, "TSA Left or Right Free");
-                String sAux = "\nLet me recommend you this application\n\n";
-                sAux = sAux + "https://play.google.com/store/apps/details?id=" + strPackName + "\n\n";
+                intI.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.app_name));
+                String sAux = "\n" + getResources().getString(R.string.first_line) + "\n\n";
+                sAux = sAux + getResources().getString(R.string.play_store_url) + "\n\n";
                 intI.putExtra(Intent.EXTRA_TEXT, sAux);
-                startActivity(Intent.createChooser(intI, "choose one"));
+                startActivity(Intent.createChooser(intI, getResources().getString(R.string.choose_one)));
             }
         });
 
         final Button btnUpgrade = (Button) findViewById(R.id.btnUpgrade);
         btnUpgrade.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String strPackPremiumName = "com.danielburgnerjr.tsaleftorrightpremium";
-                Uri uri = Uri.parse("market://details?id=" + strPackPremiumName);
-                Toast.makeText(getApplicationContext(), "Coming soon", Toast.LENGTH_SHORT).show();
+                Uri uri = Uri.parse(getResources().getString(R.string.market_premium));
+                //Toast.makeText(getApplicationContext(), "Coming soon", Toast.LENGTH_SHORT).show();
                 Intent newActivity = new Intent(Intent.ACTION_VIEW, uri);
                 try {
                     startActivity(newActivity);
                 } catch (ActivityNotFoundException e) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + strPackPremiumName)));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.play_store_premium))));
                 }
           }
         });

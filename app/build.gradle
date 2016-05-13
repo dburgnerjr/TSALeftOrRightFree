@@ -8,8 +8,8 @@ android {
         applicationId "com.danielburgnerjr.tsaleftorrightfree"
         minSdkVersion 9
         targetSdkVersion 23
-        versionCode 5
-        versionName "1.04"
+        versionCode 6
+        versionName "1.05"
     }
     buildTypes {
         release {
@@ -19,7 +19,7 @@ android {
     }
     sourceSets {
         main {
-            res.srcDirs = ['src/main/res', 'src/main/res/values-en-gb', 'src/main/res/layout-sw600dp', 'src/main/res/layout-sw720dp']
+            res.srcDirs = ['src/main/res', 'src/main/res/values-en-gb', 'src/main/res/layout-sw600dp', 'src/main/res/layout-sw720dp', 'src/main/res/values-en-rAU', 'src/main/res/values-en-rIN', 'src/main/res/values-de', 'src/main/res/es-rUS', 'src/main/res/values-es', 'src/main/res/layout-de']
         }
     }
 }
