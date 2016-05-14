@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BCT свободной генератора случайных событий</string>
+    <string name="action_settings">Настройки</string>
+    <string name="tsaLeftOrRight">BCT случайных событий бесплатная версия</string>
+    <string name="about">Около</string>
+    <string name="start">Пуск</string>
+    <string name="share">Поделиться</string>
+    <string name="upgrade">Обновление</string>
+    <string name="click_here">Щелкните здесь</string>
+    <string name="what_is_it">По поводу BCT правила генератора случайных событий</string>
+    <string name="description">Это моя версия ВСТ app генератора случайных событий, что расходы США налогоплательщиков в размере 1,4 миллиона долларов.
+Он был предметом ряда новостей как одно из представленных ниже.</string>
+    <string name="story">Щелкните здесь для истории</string>
+    <string name="first_line">Позвольте мне рекомендовать вам приложения</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=ru</string>
+    <string name="choose_one">Выберите один из</string>
+    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=ru</string>
+    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=ru</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
+</resources>

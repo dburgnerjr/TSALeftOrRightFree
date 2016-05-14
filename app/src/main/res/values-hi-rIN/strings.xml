@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TSA Randomizer फ्री</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="tsaLeftOrRight">TSA Randomizer नि: शुल्क संस्करण</string>
+    <string name="about">के बारे में</string>
+    <string name="start">प्रारंभ</string>
+    <string name="share">शेयर</string>
+    <string name="upgrade">नवीनीकरण</string>
+    <string name="click_here">यहां क्लिक करे</string>
+    <string name="what_is_it">TSA Randomizer बारे में</string>
+    <string name="description">यह है कि अमेरिकी करदाताओं $ 1.4 मिलियन डॉलर की लागत से बनाने के लिए एक TSA Randomizer एप्लिकेशन के अपने संस्करण है ।
+    यह नीचे एक तरह समाचारों का एक नंबर का विषय रहा है ।</string>
+    <string name="story">स्टोरी के लिए यहां क्लिक करें</string>
+    <string name="first_line">मुझे आप इस आवेदन की सिफारिश करते हैं</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=hi-IN</string>
+    <string name="choose_one">एक चुनो</string>
+    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=hi-IN</string>
+    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=hi-IN</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
+</resources>

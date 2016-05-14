@@ -12,9 +12,9 @@
     It has been the subject of a number of news stories like the one below.</string>
     <string name="story">Click Here For Story</string>
     <string name="first_line">Let me recommend you this application</string>
-    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=en-GB</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=en-IN</string>
     <string name="choose_one">Choose one</string>
-    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=en-GB</string>
-    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=en-GB</string>
+    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=en-IN</string>
+    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=en-IN</string>
     <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
 </resources>

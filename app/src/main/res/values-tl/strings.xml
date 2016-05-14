@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TSA Randomizer Libre</string>
+    <string name="action_settings">Setting</string>
+    <string name="tsaLeftOrRight">TSA Randomizer Libre Version</string>
+    <string name="about">Tungkol Sa</string>
+    <string name="start">Simula</string>
+    <string name="share">Magbahagi</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="click_here">Pindutin Dito</string>
+    <string name="what_is_it">Tungkol Sa TSA Randomizer</string>
+    <string name="description">Ito ang aking bersyon ng isang TSA Randomizer app na nagkakahalaga ng US taxpayers $ 1.4 milyong dolyar upang gumawa ng.
+        Ito ay naging paksa ng isang bilang ng mga kuwento ng balita na tulad ng isa sa ibaba.</string>
+    <string name="story">I-click ang Narito Para sa Story</string>
+    <string name="first_line">Hayaan akong inirerekomenda sa iyo ang isang application</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=tl</string>
+    <string name="choose_one">Pumili ng isa</string>
+    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=tl</string>
+    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=tl</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
+</resources>

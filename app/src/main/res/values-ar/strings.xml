@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TSA بشكل عشوائي حر</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="tsaLeftOrRight">TSA بشكل عشوائي نسخة مجانية</string>
+    <string name="about">حول</string>
+    <string name="start">بداية</string>
+    <string name="share">شارك</string>
+    <string name="upgrade">تطوير</string>
+    <string name="click_here">انقر هنا</string>
+    <string name="what_is_it">حول TSA بشكل عشوائي</string>
+    <string name="description" >هذا هو لي نسخة من التطبيق TSA بشكل عشوائي أن يكلف دافعي الضرائب الأمريكيين 1.4 مليون $ دولار لجعل.
+        فقد كان موضوعا لعدد من القصص الإخبارية مثل واحد أدناه .
+</string>
+    <string name="story">انقر هنا للحصول على القصة</string>
+    <string name="first_line">اسمحوا لي أن ننصح تطبيق</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=ar</string>
+    <string name="choose_one">اختر واحدا</string>
+    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=ar</string>
+    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=ar</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TSA随机数发生器免费</string>
+    <string name="action_settings">设置</string>
+    <string name="tsaLeftOrRight">TSA随机数发生器免费版本</string>
+    <string name="about">关于</string>
+    <string name="start">开始</string>
+    <string name="share">分享</string>
+    <string name="upgrade">升级</string>
+    <string name="click_here">点击这里</string>
+    <string name="what_is_it">关于TSA随机数发生器</string>
+    <string name="description">这是我的一个版本，随机数发生器TSA应用程序，花费美国纳税人$ 1.4百万美元制作的。
+        它已经被一些新闻报道类似下面的主题。</string>
+    <string name="story">点击这里故事</string>
+    <string name="first_line">我建议你的应用程序</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightfree&amp;hl=zh-CN</string>
+    <string name="choose_one">选一个</string>
+    <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=zh-CN</string>
+    <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=zh-CN</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
+</resources>
