@@ -14,7 +14,7 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        final Button btnStory = (Button) findViewById(R.id.btnStory);
+        final Button btnStory = findViewById(R.id.btnStory);
         btnStory.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent intStory = new Intent("android.intent.action.VIEW", Uri.parse("http://www.geek.com/apps/tsa-paid-1-4-million-for-randomizer-app-that-chooses-left-or-right-1651337/"));

@@ -25,13 +25,13 @@ public class RandomActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_random);
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        imvLeftArrow = (ImageView) findViewById(R.id.imgLeft);
-        imvRightArrow = (ImageView) findViewById(R.id.imgRight);
-        btnTryAgain = (Button) findViewById(R.id.btnTryAgain);
+        imvLeftArrow = findViewById(R.id.imgLeft);
+        imvRightArrow = findViewById(R.id.imgRight);
+        btnTryAgain = findViewById(R.id.btnTryAgain);
 
         aniTransition = new AlphaAnimation(1, 0);
         aniTransition.setDuration(SPLASH_TIME_OUT);

@@ -21,11 +21,11 @@ public class MenuActivity extends AppCompatActivity {
         strPackName = getApplicationContext().getPackageName();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        final Button btnAbout = (Button) findViewById(R.id.btnAbout);
+        final Button btnAbout = findViewById(R.id.btnAbout);
         btnAbout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent intA = new Intent(MenuActivity.this, AboutActivity.class);
@@ -33,7 +33,7 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        final Button btnStart = (Button) findViewById(R.id.btnStart);
+        final Button btnStart = findViewById(R.id.btnStart);
         btnStart.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent intA = new Intent(MenuActivity.this, RandomActivity.class);
@@ -41,7 +41,7 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        final Button btnShare = (Button) findViewById(R.id.btnShare);
+        final Button btnShare = findViewById(R.id.btnShare);
         btnShare.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent intI = new Intent(Intent.ACTION_SEND);
@@ -54,7 +54,7 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        final Button btnUpgrade = (Button) findViewById(R.id.btnUpgrade);
+        final Button btnUpgrade = findViewById(R.id.btnUpgrade);
         btnUpgrade.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Uri uri = Uri.parse(getResources().getString(R.string.market_premium));
