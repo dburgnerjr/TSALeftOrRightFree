@@ -17,4 +17,5 @@
     <string name="market_premium">market://details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=zh-TW</string>
     <string name="play_store_premium">https://play.google.com/store/apps/details?id=com.danielburgnerjr.tsaleftorrightpremium&amp;hl=zh-TW</string>
     <string name="banner_ad_unit_id">ca-app-pub-8379108590476103/1103806072</string>
+    <string name="admob_app_id">ca-app-pub-8379108590476103~8627072871</string>
 </resources>

@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.danielburgnerjr.tsaleftorrightfree"
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 7
         versionName "1.07"
     }
@@ -21,6 +21,10 @@ android {
         main {
             res.srcDirs = ['src/main/res', 'src/main/res/values-en-gb', 'src/main/res/layout-sw600dp', 'src/main/res/layout-sw720dp', 'src/main/res/values-en-rAU', 'src/main/res/values-en-rIN', 'src/main/res/values-de', 'src/main/res/es-rUS', 'src/main/res/values-es', 'src/main/res/layout-de', 'src/main/res/values-tl', 'src/main/res/values-ru', 'src/main/res/values-zh-rCN', 'src/main/res/values-zh-rTW', 'src/main/res/values-hi-rIN', 'src/main/res/values-ar']
         }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
     }
 }
 
