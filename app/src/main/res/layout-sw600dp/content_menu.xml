@@ -24,7 +24,7 @@
         android:layout_below="@+id/imgLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:text="@string/tsaLeftOrRight" />
 
     <Button
@@ -36,7 +36,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/about"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textColor="#fff" />
 
     <Button
@@ -48,7 +48,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/start"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textColor="#fff" />
 
     <Button
@@ -60,7 +60,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/share"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textColor="#fff" />
 
     <Button
@@ -72,7 +72,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/upgrade"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textColor="#fff" />
 
     <com.google.android.gms.ads.AdView

@@ -19,7 +19,7 @@ public class RandomActivity extends AppCompatActivity {
     private ImageView imvRightArrow;
     private Button btnTryAgain;
     private Animation aniTransition;
-    private static int SPLASH_TIME_OUT = 5000;
+    static int SPLASH_TIME_OUT = 5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,18 +58,16 @@ public class RandomActivity extends AppCompatActivity {
             }
         });
 
-        btnTryAgain.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Random rndR = new Random();
-                int nChoice = rndR.nextInt(2);
-                btnTryAgain.setVisibility(View.GONE);
-                if (nChoice == 0) {
-                    imvLeftArrow.setVisibility(View.VISIBLE);
-                    imvLeftArrow.startAnimation(aniTransition);
-                } else {
-                    imvRightArrow.setVisibility(View.VISIBLE);
-                    imvRightArrow.startAnimation(aniTransition);
-                }
+        btnTryAgain.setOnClickListener((View view) -> {
+            Random rndR = new Random();
+            int nChoice = rndR.nextInt(2);
+            btnTryAgain.setVisibility(View.GONE);
+            if (nChoice == 0) {
+                imvLeftArrow.setVisibility(View.VISIBLE);
+                imvLeftArrow.startAnimation(aniTransition);
+            } else {
+                imvRightArrow.setVisibility(View.VISIBLE);
+                imvRightArrow.startAnimation(aniTransition);
             }
         });
     }

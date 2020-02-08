@@ -7,6 +7,8 @@
     <string name="share">Поделиться</string>
     <string name="upgrade">Обновление</string>
     <string name="click_here">Щелкните здесь</string>
+    <string name="leftArrow">стрелка влево</string>
+    <string name="rightArrow">правая стрелка</string>
     <string name="what_is_it">По поводу BCT правила генератора случайных событий</string>
     <string name="description">Это моя версия ВСТ app генератора случайных событий, что расходы США налогоплательщиков в размере 1,4 миллиона долларов.
 Он был предметом ряда новостей как одно из представленных ниже.</string>

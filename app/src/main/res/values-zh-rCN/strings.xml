@@ -7,6 +7,8 @@
     <string name="share">分享</string>
     <string name="upgrade">升级</string>
     <string name="click_here">点击这里</string>
+    <string name="leftArrow">左箭头</string>
+    <string name="rightArrow">右箭头</string>
     <string name="what_is_it">关于TSA随机数发生器</string>
     <string name="description">这是我的一个版本，随机数发生器TSA应用程序，花费美国纳税人$ 1.4百万美元制作的。
         它已经被一些新闻报道类似下面的主题。</string>

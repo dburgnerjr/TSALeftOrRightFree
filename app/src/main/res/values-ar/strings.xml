@@ -7,6 +7,8 @@
     <string name="share">شارك</string>
     <string name="upgrade">تطوير</string>
     <string name="click_here">انقر هنا</string>
+    <string name="leftArrow">السهم الايسر</string>
+    <string name="rightArrow">السهم الأيمن</string>
     <string name="what_is_it">حول TSA بشكل عشوائي</string>
     <string name="description" >هذا هو لي نسخة من التطبيق TSA بشكل عشوائي أن يكلف دافعي الضرائب الأمريكيين 1.4 مليون $ دولار لجعل.
         فقد كان موضوعا لعدد من القصص الإخبارية مثل واحد أدناه .

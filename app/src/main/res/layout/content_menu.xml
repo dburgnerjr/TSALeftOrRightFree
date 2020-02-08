@@ -35,7 +35,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/about"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="#fff" />
 
     <Button
@@ -47,7 +47,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/start"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="#fff" />
 
     <Button
@@ -59,7 +59,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/share"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="#fff" />
 
     <Button
@@ -71,7 +71,7 @@
         android:layout_marginTop="10dp"
         android:background="#2f97ad"
         android:text="@string/upgrade"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="#fff" />
 
     <com.google.android.gms.ads.AdView
